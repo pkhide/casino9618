@@ -8,6 +8,5 @@ if ($_SESSION['userLogin'] != 'login') {
     die();
 } else {
     include './dbconnect.php';
-    include './function.php';
 }
 ?>
