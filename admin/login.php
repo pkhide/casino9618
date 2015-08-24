@@ -31,7 +31,12 @@ else if (!empty($_POST['username']) && !empty($_POST['password'])) {
         echo '<script>window.location.href="login.php"</script>';
         die();
     }
-}else{
+}else if (isset($_POST['username']) && isset($_POST['password']) && empty($_POST['username']) && empty($_POST['password'])) {
+    $_SESSION['loginMSG'] = "username don't match.";
+    echo '<script>window.location.href="login.php"</script>';
+    die();
+} else {
+    
 }
 ?>
 <!DOCTYPE html>

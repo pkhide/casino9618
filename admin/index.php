@@ -24,16 +24,12 @@ include './authen.php';
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="page-title">
-                            FTP & HTML Script<small></small>
+                            Dashboard
                         </h3>
                         <ul class="page-breadcrumb breadcrumb">
                             <li>
                                 <i class="icon-home"></i>
-                                <a href="index.php">Home</a> 
-                                <i class="icon-angle-right"></i>
-                            </li>
-                            <li>
-                                <a href="s1_ftp.php">FTP & HTML Script</a>
+                                <a href="index.php">Dashboard</a>
                             </li>
                         </ul>
                     </div>

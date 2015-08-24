@@ -22,3 +22,49 @@
   font-weight: 700;
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
+
+/* Thai Font */
+/*@font-face {
+    font-family: 'thaisans_neue_blackregular';
+    src: url('./thai_font/thaisansneue-black-webfont.eot');src: url('./thai_font/thaisansneue-black-webfont.eot?#iefix') format('embedded-opentype'),url('./thai_font/thaisansneue-black-webfont.woff') format('woff'),url('./thai_font/thaisansneue-black-webfont.ttf') format('truetype'),url('./thai_font/thaisansneue-black-webfont.svg#thaisans_neue_blackregular') format('svg');font-weight: normal;font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neuebold';
+    src: url('./thai_font/thaisansneue-bold-webfont.eot');src: url('./thai_font/thaisansneue-bold-webfont.eot?#iefix') format('embedded-opentype'),url('./thai_font/thaisansneue-bold-webfont.woff') format('woff'),url('./thai_font/thaisansneue-bold-webfont.ttf') format('truetype'),url('./thai_font/thaisansneue-bold-webfont.svg#thaisans_neuebold') format('svg');font-weight: normal;font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neue_extbdregular';
+    src: url('./thai_font/thaisansneue-extrabold-webfont.eot');src: url('./thai_font/thaisansneue-extrabold-webfont.eot?#iefix') format('embedded-opentype'),url('./thai_font/thaisansneue-extrabold-webfont.woff') format('woff'),url('./thai_font/thaisansneue-extrabold-webfont.ttf') format('truetype'),url('./thai_font/thaisansneue-extrabold-webfont.svg#thaisans_neue_extbdregular') format('svg');font-weight: normal;font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neue_extltregular';
+    src: url('./thai_font/thaisansneue-extralight-webfont.eot');src: url('./thai_font/thaisansneue-extralight-webfont.eot?#iefix') format('embedded-opentype'),url('./thai_font/thaisansneue-extralight-webfont.woff') format('woff'),url('./thai_font/thaisansneue-extralight-webfont.ttf') format('truetype'),url('./thai_font/thaisansneue-extralight-webfont.svg#thaisans_neue_extltregular') format('svg');font-weight: normal;font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neue_lightregular';
+    src: url('./thai_font/thaisansneue-light-webfont.eot');src: url('./thai_font/thaisansneue-light-webfont.eot?#iefix') format('embedded-opentype'),url('./thai_font/thaisansneue-light-webfont.woff') format('woff'),url('./thai_font/thaisansneue-light-webfont.ttf') format('truetype'),url('./thai_font/thaisansneue-light-webfont.svg#thaisans_neue_lightregular') format('svg');font-weight: normal;font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neueregular';
+ src: url('./thai_font/thaisansneue-regular-webfont.eot');src: url('./thai_font/thaisansneue-regular-webfont.eot?#iefix') format('embedded-opentype'),url('./thai_font/thaisansneue-regular-webfont.woff') format('woff'),url('./thai_font/thaisansneue-regular-webfont.ttf') format('truetype'),url('./thai_font/thaisansneue-regular-webfont.svg#thaisans_neueregular') format('svg');font-weight: normal;font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neue_sembdregular';
+    src: url('./thai_font/thaisansneue-semibold-webfont.eot');src: url('./thai_font/thaisansneue-semibold-webfont.eot?#iefix') format('embedded-opentype'),url('./thai_font/thaisansneue-semibold-webfont.woff') format('woff'),url('./thai_font/thaisansneue-semibold-webfont.ttf') format('truetype'),url('./thai_font/thaisansneue-semibold-webfont.svg#thaisans_neue_sembdregular') format('svg');font-weight: normal;font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neue_ultbdregular';
+    src: url('./thai_font/thaisansneue-ultrabold-webfont.eot');src: url('./thai_font/thaisansneue-ultrabold-webfont.eot?#iefix') format('embedded-opentype'),url('./thai_font/thaisansneue-ultrabold-webfont.woff') format('woff'),url('./thai_font/thaisansneue-ultrabold-webfont.ttf') format('truetype'),url('./thai_font/thaisansneue-ultrabold-webfont.svg#thaisans_neue_ultbdregular') format('svg');font-weight: normal;font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neue_ultltregular';
+    src: url('./thai_font/thaisansneue-ultralight-webfont.eot');src: url('./thai_font/thaisansneue-ultralight-webfont.eot?#iefix') format('embedded-opentype'),url('./thai_font/thaisansneue-ultralight-webfont.woff') format('woff'),url('./thai_font/thaisansneue-ultralight-webfont.ttf') format('truetype'),url('./thai_font/thaisansneue-ultralight-webfont.svg#thaisans_neue_ultltregular') format('svg');font-weight: normal;font-style: normal;
+}*/
