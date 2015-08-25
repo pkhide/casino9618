@@ -2771,9 +2771,9 @@ Dashboard stats
 
 .dashboard-stat .details {
 	position: absolute;
-	right: 104px;
+	right: 197px;
 	padding-right: 10px;
-	top: 2px;
+	top: 3px;
 }
 
 .dashboard-stat .details .number {    
