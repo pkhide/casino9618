@@ -35,12 +35,18 @@
                 <span class="<?= $select_user ?>"></span>
             </a>
         </li>
-        <li class="<?= $active_admin ?>">
-            <a href="manage_admin.php">
-                <i class="icon-user"></i> 
-                <span class="title">ผู้ดูแลระบบ</span>
-                <span class="<?= $select_admin ?>"></span>
-            </a>
-        </li>
+        <?php
+        if (isset($_SESSION['admin_type']) && $_SESSION['admin_type'] == 'owner') {
+        ?>
+            <li class="<?= $active_admin ?>">
+                <a href="manage_admin.php">
+                    <i class="icon-user"></i> 
+                    <span class="title">ผู้ดูแลระบบ</span>
+                    <span class="<?= $select_admin ?>"></span>
+                </a>
+            </li>
+        <?php
+        }
+        ?>
     </ul>
 </div>

@@ -11,7 +11,7 @@ if ($_SESSION['userLogin'] == 'login') {
 else if (!empty($_POST['username']) && !empty($_POST['password'])) {
     $check_username = mysqli_query($connect,"SELECT * FROM admin WHERE admin_username = '$_POST[username]'");
     if (mysqli_num_rows($check_username) == 1) {
-        $check_userpass = mysqli_query($connect,"SELECT * FROM admin WHERE admin_password = '$_POST[password]'");
+        $check_userpass = mysqli_query($connect,"SELECT * FROM admin WHERE admin_password = '" . md5($_POST['password']) . "'");
         if (mysqli_num_rows($check_userpass) == 1) {
             $result = mysqli_fetch_assoc($check_userpass);
             $_SESSION['admin_id'] = $result['admin_id'];
