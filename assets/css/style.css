@@ -2770,9 +2770,10 @@ Dashboard stats
 }
 
 .dashboard-stat .details {
-  position: absolute;
-  right: 15px;
-  padding-right: 10px;  
+	position: absolute;
+	right: 104px;
+	padding-right: 10px;
+	top: 2px;
 }
 
 .dashboard-stat .details .number {    
