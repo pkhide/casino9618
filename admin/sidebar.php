@@ -13,6 +13,10 @@
         $active_admin = 'active';
         $select_admin = 'selected';
     }
+    else if (strpos($filename, "manage_promotion", 0) !== FALSE) {
+        $active_promotion = 'active';
+        $select_promotion = 'selected';
+    }
     ?>   
     <ul class="page-sidebar-menu">
         <li>
@@ -48,5 +52,12 @@
         <?php
         }
         ?>
+        <li class="<?= $active_promotion ?>">
+            <a href="manage_promotion.php">
+                <i class="icon-gift"></i> 
+                <span class="title">โปรโมชั่น</span>
+                <span class="<?= $select_promotion ?>"></span>
+            </a>
+        </li>
     </ul>
 </div>
