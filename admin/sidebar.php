@@ -17,6 +17,10 @@
         $active_promotion = 'active';
         $select_promotion = 'selected';
     }
+    else if (strpos($filename, "manage_sms", 0) !== FALSE) {
+        $active_sms = 'active';
+        $select_sms = 'selected';
+    }
     ?>   
     <ul class="page-sidebar-menu">
         <li>
@@ -57,6 +61,13 @@
                 <i class="icon-gift"></i> 
                 <span class="title">โปรโมชั่น</span>
                 <span class="<?= $select_promotion ?>"></span>
+            </a>
+        </li>
+        <li class="<?= $active_sms ?>">
+            <a href="manage_sms.php">
+                <i class="icon-envelope"></i> 
+                <span class="title">ข้อความ (SMS)</span>
+                <span class="<?= $select_sms ?>"></span>
             </a>
         </li>
     </ul>
