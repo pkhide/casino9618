@@ -265,8 +265,8 @@ if (!empty($_GET['delete_promotion_id'])) {
                                                 </div>
                                                 <div class="form-actions fluid">
                                                     <div class="col-md-offset-3 col-md-9">
-                                                        <button type="button" class="btn blue" onclick="fnc_add_promotion()">Submit</button>
-                                                        <button type="reset" class="btn default">Reset</button>
+                                                        <button type="button" class="btn blue" onclick="fnc_add_promotion()">ยืนยัน</button>
+                                                        <button type="reset" class="btn default">ยกเลิก</button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -312,8 +312,8 @@ if (!empty($_GET['delete_promotion_id'])) {
                                                     </div>
                                                     <div class="form-actions fluid">
                                                         <div class="col-md-offset-3 col-md-9">
-                                                            <button type="button" class="btn blue" onclick="fnc_edit_promotion()">Submit</button>
-                                                            <button type="reset" class="btn default">Reset</button>
+                                                            <button type="button" class="btn blue" onclick="fnc_edit_promotion()">ยืนยัน</button>
+                                                            <button type="reset" class="btn default">ยกเลิก</button>
                                                         </div>
                                                     </div>
                                                 </form>

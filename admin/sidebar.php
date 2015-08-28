@@ -66,7 +66,7 @@
         <li class="<?= $active_sms ?>">
             <a href="manage_sms.php">
                 <i class="icon-envelope"></i> 
-                <span class="title">ข้อความ (SMS)</span>
+                <span class="title">แจ้งเตือน SMS</span>
                 <span class="<?= $select_sms ?>"></span>
             </a>
         </li>
