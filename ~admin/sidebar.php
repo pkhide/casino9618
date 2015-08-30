@@ -21,6 +21,10 @@
         $active_sms = 'active';
         $select_sms = 'selected';
     }
+    else if (strpos($filename, "manage_menu", 0) !== FALSE) {
+        $active_menu = 'active';
+        $select_menu = 'selected';
+    }
     ?>   
     <ul class="page-sidebar-menu">
         <li>
@@ -68,6 +72,13 @@
                 <i class="icon-envelope"></i> 
                 <span class="title">แจ้งเตือน SMS</span>
                 <span class="<?= $select_sms ?>"></span>
+            </a>
+        </li>
+        <li class="<?= $active_menu ?>">
+            <a href="manage_menu.php">
+                <i class="icon-sitemap"></i> 
+                <span class="title">เมนู</span>
+                <span class="<?= $select_menu ?>"></span>
             </a>
         </li>
     </ul>
