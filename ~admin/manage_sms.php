@@ -96,7 +96,7 @@ if (!empty($_POST['edit_sms'])) {
                         <ul class="page-breadcrumb breadcrumb">
                             <li>
                                 <i class="icon-home"></i>
-                                <a href="index.php">Dashboard</a>
+                                <a href="index.php">หน้าหลัก</a>
                                 <i class="icon-angle-right"></i>
                             </li>
                             <li>
@@ -122,7 +122,7 @@ if (!empty($_POST['edit_sms'])) {
                                 <div class="tab-pane <?php if (empty($_GET['edit_sms'])) { echo 'active'; } ?>" id="tab_0">
                                     <div class="portlet box blue">
                                         <div class="portlet-title">
-                                            <div class="caption"><i class="icon-reorder"></i>แจ้งเตือน SMS</div>
+                                            <div class="caption"><i class="icon-envelope"></i>แจ้งเตือน SMS</div>
                                         </div>
                                         <div class="portlet-body form">
                                             <?php
@@ -182,7 +182,7 @@ if (!empty($_POST['edit_sms'])) {
                                 <div class="tab-pane <?php if (!empty($_GET['edit_sms'])) { echo 'active'; } ?>" id="tab_1">
                                     <div class="portlet box blue">
                                         <div class="portlet-title">
-                                            <div class="caption"><i class="icon-reorder"></i>ข้อความ (SMS)</div>
+                                            <div class="caption"><i class="icon-cogs"></i>ตั้งค่าแจ้งเตือน SMS</div>
                                         </div>
                                         <div class="portlet-body form">
                                             <?php

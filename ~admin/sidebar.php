@@ -32,7 +32,7 @@
         <li class="<?= $active_dashboard ?>">
             <a href="index.php">
                 <i class="icon-home"></i> 
-                <span class="title">Dashboard</span>
+                <span class="title">หน้าหลัก</span>
                 <span class="<?= $select_dashboard ?>"></span>
             </a>
         </li>

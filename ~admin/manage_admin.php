@@ -159,7 +159,7 @@ if (!empty($_GET['delete_admin_id'])) {
                         <ul class="page-breadcrumb breadcrumb">
                             <li>
                                 <i class="icon-home"></i>
-                                <a href="index.php">Dashboard</a>
+                                <a href="index.php">หน้าหลัก</a>
                                 <i class="icon-angle-right"></i>
                             </li>
                             <li>
@@ -193,7 +193,7 @@ if (!empty($_GET['delete_admin_id'])) {
                                 <div class="tab-pane <?php if (empty($_GET['edit_admin_detail']) && empty($_GET['edit_admin_password'])) { echo 'active'; } ?>" id="tab_0">
                                     <div class="portlet box blue">
                                         <div class="portlet-title">
-                                            <div class="caption"><i class="icon-cogs"></i>รายชื่อผู้ดูแลระบบ</div>
+                                            <div class="caption"><i class="icon-user"></i>รายชื่อผู้ดูแลระบบ</div>
                                         </div>
                                         <div class="portlet-body">
                                             <div class="table-responsive">
@@ -239,7 +239,7 @@ if (!empty($_GET['delete_admin_id'])) {
                                 <div class="tab-pane" id="tab_1">
                                     <div class="portlet box blue">
                                         <div class="portlet-title">
-                                            <div class="caption"><i class="icon-reorder"></i>เพิ่มผู้ดูแลระบบ</div>
+                                            <div class="caption"><i class="icon-cogs"></i>เพิ่มผู้ดูแลระบบ</div>
                                         </div>
                                         <div class="portlet-body form">
                                             <form id="form_add_admin" method="POST" action="" class="form-horizontal">
@@ -284,7 +284,7 @@ if (!empty($_GET['delete_admin_id'])) {
                                 <div class="tab-pane <?php if (!empty($_GET['edit_admin_detail'])) { echo 'active'; } ?>" id="tab_2">
                                     <div class="portlet box blue">
                                         <div class="portlet-title">
-                                            <div class="caption"><i class="icon-reorder"></i>แก้ไขข้อมูลผู้ดูแลระบบ</div>
+                                            <div class="caption"><i class="icon-cogs"></i>แก้ไขข้อมูลผู้ดูแลระบบ</div>
                                         </div>
                                         <div class="portlet-body form">
                                             <?php
@@ -326,7 +326,7 @@ if (!empty($_GET['delete_admin_id'])) {
                                 <div class="tab-pane <?php if (!empty($_GET['edit_admin_password'])) { echo 'active'; } ?>" id="tab_3">
                                     <div class="portlet box blue">
                                         <div class="portlet-title">
-                                            <div class="caption"><i class="icon-reorder"></i>แก้ไขข้อมูลผู้ดูแลระบบ</div>
+                                            <div class="caption"><i class="icon-cogs"></i>แก้ไขข้อมูลผู้ดูแลระบบ</div>
                                         </div>
                                         <div class="portlet-body form">
                                             <?php
