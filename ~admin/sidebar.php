@@ -43,7 +43,7 @@
         <li class="<?= $active_user ?>">
             <a href="manage_user.php">
                 <i class="icon-user"></i> 
-                <span class="title">ชมาชิก</span>
+                <span class="title">สมาชิก</span>
                 <span class="<?= $select_user ?>"></span>
             </a>
         </li>
