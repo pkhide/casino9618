@@ -166,7 +166,7 @@ if (!empty($_POST['edit_sms'])) {
                                                         <div class="col-md-4">
                                                             <div class="btn-group">
                                                                 <a class="btn purple" href="manage_sms.php?edit_sms=1">
-                                                                    <i class="icon-user"></i> ตั้งค่า
+                                                                    <i class="icon-cogs"></i> ตั้งค่าแจ้งเตือน SMS
                                                                 </a>
                                                             </div>
                                                         </div>
@@ -224,7 +224,9 @@ if (!empty($_POST['edit_sms'])) {
                                                     <div class="form-actions fluid">
                                                         <div class="col-md-offset-3 col-md-9">
                                                             <button type="button" class="btn blue" onclick="fnc_edit_sms()">ยืนยัน</button>
-                                                            <button type="reset" class="btn default">ยกเลิก</button>
+                                                            <a class="btn default" href="manage_sms.php">
+                                                                ยกเลิก
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -240,22 +242,6 @@ if (!empty($_POST['edit_sms'])) {
                 </div>
             </div>
         </div>
-        <script type="text/javascript">
-            document.getElementById("promotion_image").onchange = function () {
-                var reader = new FileReader();
-                reader.onload = function (e) {
-                    document.getElementById("show_promotion_image").src = e.target.result;
-                };
-                reader.readAsDataURL(this.files[0]);
-            };
-            document.getElementById("edit_promotion_image").onchange = function () {
-                var reader = new FileReader();
-                reader.onload = function (e) {
-                    document.getElementById("show_edit_promotion_image").src = e.target.result;
-                };
-                reader.readAsDataURL(this.files[0]);
-            };
-        </script>
         <?php
         include './footer.php';
         ?>

@@ -272,7 +272,9 @@ if (!empty($_GET['delete_admin_id'])) {
                                                 <div class="form-actions fluid">
                                                     <div class="col-md-offset-3 col-md-9">
                                                         <button type="button" class="btn blue" onclick="fnc_add_admin()">ยืนยัน</button>
-                                                        <button type="button" class="btn default">ยกเลิก</button>
+                                                        <a class="btn default" href="manage_admin.php">
+                                                            ยกเลิก
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </form>
@@ -309,7 +311,9 @@ if (!empty($_GET['delete_admin_id'])) {
                                                     <div class="form-actions fluid">
                                                         <div class="col-md-offset-3 col-md-9">
                                                             <button type="button" class="btn blue" onclick="fnc_edit_admin_detail()">ยืนยัน</button>
-                                                            <button type="reset" class="btn default">ยกเลิก</button>
+                                                            <a class="btn default" href="manage_admin.php">
+                                                                ยกเลิก
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -349,7 +353,9 @@ if (!empty($_GET['delete_admin_id'])) {
                                                     <div class="form-actions fluid">
                                                         <div class="col-md-offset-3 col-md-9">
                                                             <button type="button" class="btn blue" onclick="fnc_edit_admin_password()">ยืนยัน</button>
-                                                            <button type="reset" class="btn default">ยกเลิก</button>
+                                                            <a class="btn default" href="manage_admin.php">
+                                                                ยกเลิก
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </form>
